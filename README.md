@@ -65,7 +65,7 @@ The following animations demonstrate the **Gradient Descent** process in action.
 
 ```text
 ├── assets/
-│   ├── linear_regression_training_process.gif  # Raw Data Source
+│   ├── linear_regression_training_process.gif  # Animation output 1  
 │   ├── linear_regression_training_process2.gif # Animation output 2   
 │   ├── ... (Reference images)
 │
