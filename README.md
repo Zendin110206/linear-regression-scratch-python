@@ -15,13 +15,16 @@ The core of this project relies on deriving the formulas manually to optimize th
 
 ### 1. The Hypothesis
 The model predicts the value $\hat{y}$ using a linear equation:
-$$ \hat{y} = mx + b $$
-*   $m$: Slope (Weight)
-*   $b$: Intercept (Bias)
+
+$$\hat{y} = mx + b$$
+
+* $m$: Slope (Weight)
+* $b$: Intercept (Bias)
 
 ### 2. The Cost Function (Mean Squared Error)
 To evaluate the model's performance, I implemented the MSE formula manually:
-$$ J(m, b) = \frac{1}{n} \sum_{i=1}^{n} (y_i - (mx_i + b))^2 $$
+
+$$J(m, b) = \frac{1}{n} \sum_{i=1}^{n} (y_i - (mx_i + b))^2$$
 
 ### 3. Gradient Descent (Optimization)
 To minimize the error, the parameters ($m$ and $b$) are updated iteratively using partial derivatives (Chain Rule):
